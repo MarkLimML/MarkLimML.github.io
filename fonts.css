@@ -1,0 +1,20 @@
+#header-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: black;
+    background-image: url(background.jpg);
+    min-width: 100px;
+    text-align: right;
+}
+
+#cover-style{
+    background-image: url(background.jpg);
+    text-align: center;
+}
+
+#body-style{
+    text-align: justify;
+    color: black;
+    background-image: url(background.jpg);
+    min-height: 770px;
+}

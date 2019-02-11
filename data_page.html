@@ -1,0 +1,147 @@
+<html>
+
+<head>
+      <title>SongWorm Updates</title>
+      <link rel="stylesheet" href="fonts.css">
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <script src="bootstrap.min.css"></script>
+</head>
+
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+            <div class="container">
+                  <a class="navbar-brand" href="main_page.html">COMET Inc.</a>
+
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                                    <button onclick="window.location.href = 'main_page.html'" type="button"
+                                          class="btn btn-outline-dark">Home</button>&nbsp;&nbsp;
+                              </li>
+                              <li class="nav-item">
+                                    <button type="button" class="btn btn-outline-success">Recent
+                                          Updates</button>&nbsp;&nbsp;
+                              </li>
+                              <li class="nav-item">
+                                    <button onclick="window.location.href = 'aboutus_page.html'" type="button"
+                                          class="btn btn-outline-info">About Us</button>&nbsp;&nbsp;
+                              </li>
+                              <li class="nav-item">
+                                    <input type="text" placeholder="Search here"></input>&nbsp;&nbsp;
+                              </li>
+                              <li class="nav-item">
+                                    <button class="btn btn-secondary" type="submit">Search</button>
+                              </li>
+                        </ul>
+                  </div>
+            </div>
+      </nav>
+
+      <div id="body-style">
+            <br><br><br>
+            <article>
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-lg-10 col-md-12 mx-auto">
+                                    <h1 class="section-heading">Introducing SONGWORM!</h1>
+                                    <p>There are times that when you get absolutely bored, you sometimes have that urge
+                                          to find a way to kill some time.
+                                          In that moment, you just had an idea. Maybe make a game where everyone can
+                                          compete with something most people enjoy...songs!
+                                    </p>
+                                    <p>Thats why, here at COMET Inc., we decided to make a mobile application, where the
+                                          game is to guess the song, simple right?
+                                          There's nothing more enjoyable than competing with your friends and family and
+                                          see which one is the most knowledgable with songs.
+                                    </p>
+                                    <p>In this post, we'll be introducing the mere basic concept of game itself.
+                                          Exploring new ways for our users to enjoy our product.</p>
+                                    <br>
+                                    <h2 class="section-heading">The Concept Phase</h2>
+                                    <p>In making the app, we first wanted to know what songs would be best in making our
+                                          app relevant to the current generation while still appeasing to the older
+                                          generations.
+                                          So, in order to find out, we first took a look at a statistical report from
+                                          Kaggle, this report has ratings of songs in several genres ranging from
+                                          experimental to global.
+                                          So, for our first feature for the app was adding songs of particular genres
+                                          that were popular.
+                                    </p>
+                                    <p>In order to determine which genres would fit best into the app, we first took a
+                                          look at the list of songs reviewed over the years and see which genres overall
+                                          have the best rating while maintaining its consistency.</p>
+                                    <br>
+                                    <h2 class="section-heading">The Concept Phase: Part 2</h2>
+                                    <p>Here's an overview of the data on each genres we were able to find.</p>
+                                    <h5 class="section-heading">Electronic:</h5>
+                                    <img src="Electronic.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">It shows a massive downward spike spanning 3-4 years, representing its current potential to be unstable.</span>
+                                    <h5 class="section-heading">Pop/R&B:</h5>
+                                    <img src="Pop.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">It shows a downward spike at first, then rises to a consistent high score for the rest of the years.</span>
+                                    <h5 class="section-heading">Metal:</h5>
+                                    <img src="Metal.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">It shows a slow rise, while maintaining consistency, it shows stability in its ratings.</span>
+                                    <h5 class="section-heading">Rock:</h5>
+                                    <img src="Rock.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">Presense of several high scores, but also several downward spikes, showing instability.</span>
+                                    <h5 class="section-heading">Rap:</h5>
+                                    <img src="Rap.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">Only high ratings can be seen at the beginning of the decade, only to be followed by a downward slope.</span>
+                                    <h5 class="section-heading">Experimental:</h5>
+                                    <img src="Experimental.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">Similar to Rock, showing multiple high and low scores in 1-2 year intervals.</span>
+                                    <h5 class="section-heading">Folk/Country:</h5>
+                                    <img src="Folk.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">Only average scores are seen while also being unstable.</span>
+                                    <h5 class="section-heading">Jazz:</h5>
+                                    <img src="Jazz.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">Shows average and high ratings, but the cost of several inconsistencies in the beginning of the decade.</span>
+                                    <h5 class="section-heading">Global:</h5>
+                                    <img src="Global.png" alt="Image not found"><br>
+                                    <span class="caption text-muted">Shows a large spike spanning 4 years at best, while the rest remains average.</span>
+                                    <br>
+                                    <h2 class="section-heading">Version Testing</h2>
+                                    <p>For the first version of the app, we'll be adding songs from genres according to
+                                          the overall popularity.
+                                          As shown by the results in the previous section, the most popular genre Metal, followed by Pop/R&B, Electronic, Rock, and Jazz.
+                                          Among these only Metal and Pop/R&B remain consistent for about a decade, having only small fluctuations every 2 years or so. 
+                                          As for the rest, the results show frequent downward and upward spikes showing a inconsistency spanning 2-3 years, while some of those genres
+                                          produce highly rated songs, its instability in keeping the genre relevant poses certain risks in its implementation in the app.
+                                    </p>
+                                    <p>Overall, the results point out that while both Metal and Pop show consistent ratings, it would be mire preferable if other highly rated genres
+                                          are added into the mix to maintain variety while keeping the app relevant without any risk of simply adding random songs at will.
+                                    </p>
+                                    <p><b>More updates to come.....Stay Tuned!</b></p>
+                              </div>
+                        </div>
+                  </div>
+            </article>
+      </div>
+
+
+      <script id="dsq-count-scr" src="//songworm.disqus.com/count.js" async></script>
+</body>
+<div id="disqus_thread"></div>
+<script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://songworm.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+      })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+
+</html>
